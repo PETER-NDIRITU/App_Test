@@ -7,7 +7,7 @@ import json
 def initialize_ee():
     try:
         # Path to your service account JSON file
-        SERVICE_ACCOUNT_KEY = 'ee-thukupeter487soknotproject-a451f6d28da0.json'
+        SERVICE_ACCOUNT_KEY = 'Template.json'
         
         # Read credentials from JSON file
         credentials = ee.ServiceAccountCredentials(
